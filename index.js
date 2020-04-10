@@ -17,7 +17,8 @@ const randomString = (len = 16) => {
     }
     catch (error) {
         console.log(error)
+        return null
     }
 }
 
-console.log(randomString('abc'))
+module.exports = randomString;

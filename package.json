@@ -4,13 +4,17 @@
   "description": "This package is used to genearte random string based on the length provided.",
   "main": "index.js",
   "scripts": {
-    "start" : "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "test": "mocha test"
   },
   "keywords": [
     "random string",
     "string generator"
   ],
   "author": "Avinash Nandan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "7.1.1"
+  }
 }
