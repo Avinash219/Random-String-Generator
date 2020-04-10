@@ -1,0 +1,16 @@
+{
+  "name": "randomstringenerator",
+  "version": "1.0.0",
+  "description": "This package is used to genearte random string based on the length provided.",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random string",
+    "string generator"
+  ],
+  "author": "Avinash Nandan",
+  "license": "ISC"
+}
